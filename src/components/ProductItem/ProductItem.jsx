@@ -11,7 +11,7 @@ function ProductItem({product, className, onAdd}) {
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <div className={'price'}>
-                <span> Narxi: <b>{product.description}</b></span>
+                <span> Narxi: <b>{product.price}</b></span>
             </div>
             <Buttons className='add_btn' onClick={onAddHandler}>
                 Savatchaga qo'shish
